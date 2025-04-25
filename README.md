@@ -1,4 +1,9 @@
 ## Hi there 👋
+I am currently working as dev-ops/team-lead @ [Tripletex AS](https://github.com/Tripletex) on the mobile app team
+
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=ts,react,reactnative,git,github,grafana,idea,android,apple,sentry,html,css,slack&perline=5)
+
+
 
 <!--
 **HarNys/HarNys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
