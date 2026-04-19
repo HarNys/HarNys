@@ -1,7 +1,7 @@
 ## Hi there 👋
 I am currently working as dev-ops/team-lead @ [Tripletex AS](https://github.com/Tripletex) on the mobile app team
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=ts,react,reactnative,git,claude,github,grafana,idea,googleplay,appstore,sentry,html,css,slack,markdown&perline=5)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=claude,ts,react,reactnative,git,github,grafana,idea,googleplay,appstore,sentry,html,css,slack,markdown&perline=5)
 
 
 
