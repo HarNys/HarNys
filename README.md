@@ -1,5 +1,5 @@
 ## Hi there 👋
-I am currently working as dev-ops/team-lead @ [Tripletex AS](https://github.com/Tripletex) on the mobile app team
+I am currently working as team-lead @ [Tripletex AS](https://github.com/Tripletex) on the mobile app team. Alongside that, I help coordinate our group of AI champions to roll out agentic workflows across the organisation — making sure the right MCPs and skills land with the people who need them, sharing knowledge through talks, and running weekly drop-in sessions for co-workers from any department.
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=claude,ts,react,reactnative,git,github,grafana,idea,googleplay,appstore,sentry,html,css,slack,markdown&perline=5)
 
