@@ -41,7 +41,7 @@ Tripletex is Norway's leading SaaS for accounting and ERP. I joined as a fullsta
 - Advise a 4-person product team (3 engineers, 1 product specialist) on engineering practice, delivery flow, and cross-team collaboration.
 - Coaching engagement — no direct reports on this team.
 
-**Interim Team Lead, AI Product Team** — Apr 2024 – Dec 2024 (split ~50/50 with mobile)
+**Interim Team Lead, AI Product Team** — Apr 2024 – Feb 2025 (split ~50/50 with mobile)
 - Stood up a new AI product team alongside my mobile responsibilities while a permanent lead was hired.
 - Onboarded two engineers and set up the team's engineering processes (planning, code review, release flow).
 
@@ -50,8 +50,8 @@ Tripletex is Norway's leading SaaS for accounting and ERP. I joined as a fullsta
 - Mentored developers and improved day-to-day engineering process ahead of moving into the team-lead role.
 - Stack: React Native, TypeScript.
 
-**Fullstack Developer** — May 2015 – Apr 2021
-- Worked across backend (Java), frontend (JavaScript, CSS), and mobile.
+**Software Developer** — May 2015 – Apr 2021
+- Fullstack work across backend (Java), frontend (JavaScript, CSS), and mobile.
 - Helped introduce React to the company; contributed to multiple Tripletex product modules.
 
 ### Centric — Consultant — Jan 2015 – Mar 2015
@@ -66,7 +66,7 @@ Automated document generation in HP Exstream and Visual Basic.
 
 ## Boards
 
-- Chair, Sameiet Persilengen — 2026–Present
+- Chairman of the Board, Sameiet Persilengen — 2026–Present
 - Board Member, Sameiet Persilengen — 2023–2025
 
 ## Languages

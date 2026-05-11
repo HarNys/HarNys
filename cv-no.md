@@ -37,21 +37,21 @@ Tripletex er Norges ledende SaaS-løsning for regnskap og ERP. Jeg startet som f
 - Arrangerer "Claude and Coffee" sammen med en kollega — lavterskelmøter som har hjulpet kollegaer i Support, HR og Sales med å bygge egne automatiseringer, ikke bare utviklere.
 - Koordinerings- og enabler-rolle, ikke personalansvar.
 
-**Coach, internt prosjektteam** — apr. 2026 – d.d.
+**Coach, internprosjektteam** — apr. 2026 – d.d.
 - Veileder et produktteam på 4 personer (3 utviklere, 1 produktspesialist) i utviklingspraksis, leveranseflyt og samarbeid på tvers av team.
 - Coaching-rolle — ingen direkte rapporterende på dette teamet.
 
-**Fungerende teamleder, AI-produktteam** — apr. 2024 – des. 2024 (delt ~50/50 med mobil)
+**Fungerende teamleder, AI-produktteam** — apr. 2024 – feb. 2025 (delt ~50/50 med mobil)
 - Etablerte et nytt AI-produktteam ved siden av mobilansvaret mens en permanent leder ble rekruttert.
 - Onboardet to utviklere og satte opp teamets utviklingsprosesser (planlegging, kodegjennomgang, releaseflyt).
 
-**Teknisk leder, mobil** — apr. 2021 – feb. 2022
+**Tech Lead, mobil** — apr. 2021 – feb. 2022
 - Hadde ansvar for mobilarkitektur, teknologivalg og kodekvalitet.
 - Veiledet utviklere og forbedret den daglige utviklingsprosessen før jeg gikk inn i teamlederrollen.
 - Stack: React Native, TypeScript.
 
-**Fullstack-utvikler** — mai 2015 – apr. 2021
-- Jobbet på tvers av backend (Java), frontend (JavaScript, CSS) og mobil.
+**Utvikler** — mai 2015 – apr. 2021
+- Fullstack-arbeid på tvers av backend (Java), frontend (JavaScript, CSS) og mobil.
 - Bidro til å introdusere React i selskapet; jobbet med flere Tripletex-moduler.
 
 ### Centric — Konsulent — jan. 2015 – mar. 2015
