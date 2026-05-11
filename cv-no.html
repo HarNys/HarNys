@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Harry Nystad — CV</title>
+<style>
+  :root {
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --rule: #e5e1d8;
+    --paper: #faf7f2;
+    --accent: #134e4a;
+    --accent-soft: #2a6f6b;
+    --cream: #f5f1e8;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  html { background: #ece8df; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.55;
+    font-size: 15.5px;
+    padding: 2.5rem 1rem 4rem;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 60rem;
+    margin: 0 auto;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    box-shadow: 0 1px 2px rgba(15, 30, 30, 0.04), 0 8px 24px rgba(15, 30, 30, 0.06);
+    display: grid;
+    grid-template-columns: 18rem 1fr;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  aside {
+    background: var(--accent);
+    color: var(--cream);
+    padding: 2.75rem 1.75rem;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  aside h1 {
+    font-size: 1.85rem;
+    line-height: 1.15;
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+
+  aside .tagline {
+    font-size: 0.92rem;
+    color: var(--cream);
+    opacity: 0.82;
+    margin: 0 0 1.75rem;
+    line-height: 1.45;
+  }
+
+  aside h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.72rem;
+    margin: 1.6rem 0 0.55rem;
+    color: #fff;
+    opacity: 0.72;
+    font-weight: 600;
+  }
+
+  aside .accent-rule {
+    height: 2px;
+    width: 2.25rem;
+    background: var(--cream);
+    opacity: 0.35;
+    margin: 0 0 1.5rem;
+    border: 0;
+  }
+
+  aside .stack {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.93rem;
+  }
+  aside .stack li {
+    margin: 0.2rem 0;
+    line-height: 1.45;
+  }
+  aside a {
+    color: var(--cream);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(245, 241, 232, 0.3);
+    padding-bottom: 1px;
+    transition: border-color 0.15s ease;
+  }
+  aside a:hover { border-bottom-color: var(--cream); }
+
+  main {
+    padding: 2.75rem 2.5rem 3rem;
+  }
+
+  main h2 {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    margin: 2rem 0 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+  }
+  main h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+  main h2:first-child { margin-top: 0; }
+
+  main h3 {
+    font-size: 1.02rem;
+    font-weight: 700;
+    margin: 1.4rem 0 0.1rem;
+    color: var(--accent);
+    letter-spacing: 0.005em;
+  }
+
+  .role {
+    margin: 1.1rem 0 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .role .title {
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .role .when {
+    color: var(--muted);
+    font-size: 0.88rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  main p { margin: 0.5rem 0; }
+  .lead {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--ink);
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  .company-blurb {
+    margin: 0.25rem 0 0.4rem;
+    color: var(--muted);
+    font-size: 0.93rem;
+  }
+
+  ul.bullets {
+    margin: 0.45rem 0 0.6rem;
+    padding-left: 1.1rem;
+  }
+  ul.bullets li {
+    margin: 0.22rem 0;
+    line-height: 1.55;
+  }
+  ul.bullets li::marker { color: var(--accent-soft); }
+
+  ul.highlights {
+    margin: 0.5rem 0 0.5rem;
+    padding-left: 1.1rem;
+  }
+  ul.highlights li {
+    margin: 0.35rem 0;
+    line-height: 1.55;
+  }
+  ul.highlights li::marker { color: var(--accent-soft); }
+  ul.highlights strong { color: var(--accent); }
+
+  .compact { margin: 0.2rem 0; }
+  .compact-muted { margin: 0.2rem 0; color: var(--muted); font-size: 0.93rem; }
+
+  .languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .pill {
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+    background: rgba(245, 241, 232, 0.12);
+    border: 1px solid rgba(245, 241, 232, 0.22);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    color: var(--cream);
+  }
+
+  /* Print */
+  @media print {
+    @page { size: A4; margin: 0; }
+    html, body { background: #fff; padding: 0; font-size: 10.5pt; }
+    .page {
+      box-shadow: none;
+      border: 0;
+      max-width: none;
+      min-height: auto;
+      grid-template-columns: 16rem 1fr;
+    }
+    aside { padding: 1.6cm 1.1cm; }
+    main { padding: 1.6cm 1.4cm; }
+    main h2 { margin-top: 1.1rem; }
+    .role { page-break-inside: avoid; }
+    a { color: inherit; }
+    main a { color: var(--accent); text-decoration: none; }
+  }
+
+  /* Responsive */
+  @media (max-width: 760px) {
+    body { padding: 0.75rem 0.5rem 2rem; font-size: 15px; }
+    .page {
+      grid-template-columns: 1fr;
+      box-shadow: none;
+    }
+    aside { padding: 1.75rem 1.5rem; }
+    main { padding: 1.75rem 1.5rem; }
+    aside h1 { font-size: 1.6rem; }
+    .role .when { font-size: 0.85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <aside>
+    <h1>Harry Nystad</h1>
+    <p class="tagline">Teamleder · Mobil, AI og prosess</p>
+
+    <h3>Lokasjon</h3>
+    <hr class="accent-rule" />
+    <p class="stack" style="margin:0;">Stor-Oslo-området, Norge</p>
+
+    <h3>Lenker</h3>
+    <hr class="accent-rule" />
+    <ul class="stack">
+      <li><a href="https://www.linkedin.com/in/harry-n-0a25803a">LinkedIn</a></li>
+      <li><a href="https://github.com/HarNys">github.com/HarNys</a></li>
+    </ul>
+
+    <h3>Språk</h3>
+    <hr class="accent-rule" />
+    <div class="languages">
+      <span class="pill">Norsk (morsmål)</span>
+      <span class="pill">Engelsk (flytende)</span>
+      <span class="pill">Finsk (mellomnivå)</span>
+    </div>
+  </aside>
+
+  <main>
+    <h2>Profil</h2>
+    <p class="lead">
+      Teamleder med 4+ års erfaring som leder for Tripletex' mobilteam i det daglige — leveranse,
+      coaching, rekruttering og prosess — for et produkt med over 150 000 månedlige brukere. Koordinerer
+      i tillegg Tripletex' AI-utrulling på tvers av organisasjonen og veileder et annet produktteam i
+      utviklingspraksis. 10+ års erfaring som utvikler totalt, de siste 5+ i lederroller.
+    </p>
+
+    <h2>Nøkkeltall</h2>
+    <ul class="highlights">
+      <li><strong>Brukervekst mobil:</strong> 94 000 (des. 2022) → 151 000 (des. 2025), ~60 % vekst i min tid som teamleder.</li>
+      <li><strong>Releasekadens:</strong> fra én release annenhver fredag til tirsdag og torsdag ukentlig; på vei mot tilnærmet kontinuerlig leveranse innenfor Apples reviewtid.</li>
+      <li><strong>App-rating:</strong> 4,5 (iOS) / 4,2 (Android) i 2022 → 4,6 i begge butikker i dag.</li>
+      <li><strong>AI-adopsjon:</strong> ~70 % av ny kode i mobilappen er AI-assistert; koordinerte utrulling til 328 lisenser (~95 % av de ansatte); arrangerer "Claude and Coffee" — åpne lavterskelmøter der kollegaer i Support, HR og Sales får praktisk hjelp til å automatisere egne oppgaver.</li>
+      <li><strong>Compliance:</strong> to interne sikkerhetsvurderinger og én personvernkonsekvensvurdering (DPIA) under Visma Cloud Delivery Model, samt én ISO 9001-revisjon.</li>
+    </ul>
+
+    <h2>Erfaring</h2>
+
+    <h3>Tripletex AS — mai 2015 til d.d.</h3>
+    <p class="company-blurb">
+      Tripletex er Norges ledende SaaS-løsning for regnskap og ERP. Jeg startet som fullstack-utvikler
+      og gikk gradvis over i ledelse av mobilteamet, parallelt med ledelse innen AI og utviklingspraksis.
+    </p>
+
+    <div class="role">
+      <span class="title">Teamleder, mobil</span>
+      <span class="when">feb. 2022 – d.d.</span>
+    </div>
+    <ul class="bullets">
+      <li>Leder et mobilteam på 6 personer i det daglige: 5 utviklere og 1 produktspesialist, samt delt UX og produktledelse (50 % hver).</li>
+      <li>Teamet har vært stabilt — én frivillig avgang siden februar 2022.</li>
+      <li>Ansvarlig for leveransen fra ende til annen: prioritering, kapasitetsplanlegging og release-flyt på App Store og Google Play.</li>
+      <li>Leder den tekniske vurderingen i rekruttering — kjørte hele prosessen for én utviklerrekruttering i 2025; bidro i en utviklerrekruttering i 2024.</li>
+      <li>Endret releasekadensen fra annenhver uke til to ganger i uka uten at app-ratingen på 4,6 falt.</li>
+      <li>Kjører sikkerhetsvurderinger, DPIA-er (Visma Cloud Delivery Model) og ISO 9001-revisjon for mobilproduktet.</li>
+      <li>Stack: React Native, TypeScript, GitHub Actions CI/CD.</li>
+    </ul>
+
+    <div class="role">
+      <span class="title">Leder, AI Champions</span>
+      <span class="when">jan. 2026 – d.d.</span>
+    </div>
+    <ul class="bullets">
+      <li>Koordinerer et tverrfaglig initiativ med 10 personer (utvikling, support, forretningsutvikling, salg, produkt) som ruller ut agent-baserte arbeidsflyter på tvers av Tripletex.</li>
+      <li>Matcher team med riktige MCP-servere, skills og lisensallokeringer slik at verktøyene faktisk tas i bruk.</li>
+      <li>Arrangerer "Claude and Coffee" sammen med en kollega — lavterskelmøter som har hjulpet kollegaer i Support, HR og Sales med å bygge egne automatiseringer, ikke bare utviklere.</li>
+      <li>Koordinerings- og enabler-rolle, ikke personalansvar.</li>
+    </ul>
+
+    <div class="role">
+      <span class="title">Coach, internt prosjektteam</span>
+      <span class="when">apr. 2026 – d.d.</span>
+    </div>
+    <ul class="bullets">
+      <li>Veileder et produktteam på 4 personer (3 utviklere, 1 produktspesialist) i utviklingspraksis, leveranseflyt og samarbeid på tvers av team.</li>
+      <li>Coaching-rolle — ingen direkte rapporterende på dette teamet.</li>
+    </ul>
+
+    <div class="role">
+      <span class="title">Fungerende teamleder, AI-produktteam</span>
+      <span class="when">apr. 2024 – des. 2024 (delt ~50/50 med mobil)</span>
+    </div>
+    <ul class="bullets">
+      <li>Etablerte et nytt AI-produktteam ved siden av mobilansvaret mens en permanent leder ble rekruttert.</li>
+      <li>Onboardet to utviklere og satte opp teamets utviklingsprosesser (planlegging, kodegjennomgang, releaseflyt).</li>
+    </ul>
+
+    <div class="role">
+      <span class="title">Teknisk leder, mobil</span>
+      <span class="when">apr. 2021 – feb. 2022</span>
+    </div>
+    <ul class="bullets">
+      <li>Hadde ansvar for mobilarkitektur, teknologivalg og kodekvalitet.</li>
+      <li>Veiledet utviklere og forbedret den daglige utviklingsprosessen før jeg gikk inn i teamlederrollen.</li>
+      <li>Stack: React Native, TypeScript.</li>
+    </ul>
+
+    <div class="role">
+      <span class="title">Fullstack-utvikler</span>
+      <span class="when">mai 2015 – apr. 2021</span>
+    </div>
+    <ul class="bullets">
+      <li>Jobbet på tvers av backend (Java), frontend (JavaScript, CSS) og mobil.</li>
+      <li>Bidro til å introdusere React i selskapet; jobbet med flere Tripletex-moduler.</li>
+    </ul>
+
+    <h3>Centric</h3>
+    <div class="role">
+      <span class="title">Konsulent</span>
+      <span class="when">jan. 2015 – mar. 2015</span>
+    </div>
+    <p class="compact">QA-testing av mobile-first-webløsninger for kundeprosjekter.</p>
+
+    <h3>Visma Consulting</h3>
+    <div class="role">
+      <span class="title">Konsulent</span>
+      <span class="when">feb. 2014 – juli 2014</span>
+    </div>
+    <p class="compact">Automatisert dokumentgenerering i HP Exstream og Visual Basic.</p>
+
+    <h2>Utdanning</h2>
+    <p class="compact"><strong>Høgskolen i Gjøvik</strong> (nå NTNU Gjøvik) — Bachelor i spillprogrammering, 2010–2013</p>
+    <p class="compact-muted">Tilleggsemner i anvendt informatikk, 2013–2014.</p>
+
+    <h2>Verv</h2>
+    <ul class="bullets">
+      <li>Styreleder, Sameiet Persilengen — 2026–d.d.</li>
+      <li>Styremedlem, Sameiet Persilengen — 2023–2025</li>
+    </ul>
+  </main>
+</div>
+</body>
+</html>
