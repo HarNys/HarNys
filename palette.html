@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CV Palette</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .palette {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+  }
+  .swatch {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 0 4rem;
+    cursor: pointer;
+    transition: flex 0.2s ease;
+    user-select: none;
+  }
+  .swatch:hover { flex: 1.2; }
+
+  .hex {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    margin: 0;
+  }
+  .role {
+    margin-top: 0.6rem;
+    font-size: 0.78rem;
+    opacity: 0.7;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 14rem;
+    line-height: 1.4;
+  }
+
+  .light-text { color: #f5f1e8; }
+  .dark-text { color: #212121; }
+
+  @media (max-width: 720px) {
+    .palette { flex-direction: column; height: auto; min-height: 100vh; }
+    .swatch { padding: 3rem 0; }
+    .swatch:hover { flex: 1; }
+  }
+</style>
+</head>
+<body>
+<div class="palette">
+  <div class="swatch light-text" style="background: #E67514;" onclick="navigator.clipboard.writeText('#E67514')">
+    <p class="hex">#E67514</p>
+    <p class="role">Accent · bullets, dividers</p>
+  </div>
+  <div class="swatch light-text" style="background: #212121;" onclick="navigator.clipboard.writeText('#212121')">
+    <p class="hex">#212121</p>
+    <p class="role">Body text</p>
+  </div>
+  <div class="swatch light-text" style="background: #06863A;" onclick="navigator.clipboard.writeText('#06863A')">
+    <p class="hex">#06863A</p>
+    <p class="role">Sidebar &amp; headings</p>
+  </div>
+  <div class="swatch dark-text" style="background: #D3ECCD;" onclick="navigator.clipboard.writeText('#D3ECCD')">
+    <p class="hex">#D3ECCD</p>
+    <p class="role">Sidebar text &amp; dividers</p>
+  </div>
+</div>
+</body>
+</html>
