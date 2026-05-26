@@ -24,22 +24,24 @@ Tripletex is Norway's leading SaaS for accounting and ERP. I joined as a fullsta
 
 **Team Lead, Mobile** — Feb 2022 – Present
 - Lead a 6-person mobile team day-to-day: 5 engineers and 1 product specialist, with shared UX and product management (0.5 FTE each).
-- Team has been stable — one voluntary departure since Feb 2022.
+- Kept a stable team with very low turnover.
 - Own delivery end-to-end: prioritisation, capacity planning, and release flow on App Store and Google Play.
 - Lead the technical evaluation in hiring — ran the full process for one engineer hire in 2025; contributed to a 2024 engineer hire.
 - Moved the team from biweekly to twice-weekly releases without regressing the 4.6 store rating.
 - Run security self-assessments, Data Protection Assessments (Visma Cloud Delivery Model), and ISO 9001 audit work for the mobile product.
 - Stack: React Native, TypeScript, GitHub Actions CI/CD.
 
-**Lead, AI Champions** — Jan 2026 – Present
+#### Concurrent initiatives (alongside Team Lead role)
+
+**AI Champions Lead** — Jan 2026 – Present
 - Coordinate a 10-person cross-functional initiative (engineering, support, business development, sales, product) rolling out agentic workflows across Tripletex.
 - Match teams to the right MCP servers, skills, and seat allocations so the tooling actually lands.
 - Co-run "Claude and Coffee" — low-threshold clinics that have helped Support, HR, and Sales colleagues build their own automations, not just engineering.
 - Coordination and enablement role, not line management.
 
-**Coach, Internal Projects Team** — Apr 2026 – Present
+**Interim Coach, Internal Projects Team** — Apr 2026 – Present
 - Advise a 4-person product team (3 engineers, 1 product specialist) on engineering practice, delivery flow, and cross-team collaboration.
-- Coaching engagement — no direct reports on this team.
+- Interim coaching engagement — no direct reports on this team.
 
 **Interim Team Lead, AI Product Team** — Apr 2024 – Feb 2025 (split ~50/50 with mobile)
 - Stood up a new AI product team alongside my mobile responsibilities while a permanent lead was hired.

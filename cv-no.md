@@ -24,12 +24,14 @@ Tripletex er Norges ledende SaaS-løsning for regnskap og ERP. Jeg startet som f
 
 **Teamleder, mobil** — feb. 2022 – d.d.
 - Leder et mobilteam på 6 personer i det daglige: 5 utviklere og 1 produktspesialist, samt delt UX og produktledelse (50 % hver).
-- Teamet har vært stabilt — én frivillig avgang siden februar 2022.
+- Holdt et stabilt team med svært lav turnover.
 - Ansvarlig for leveransen fra ende til annen: prioritering, kapasitetsplanlegging og release-flyt på App Store og Google Play.
 - Leder den tekniske vurderingen i rekruttering — kjørte hele prosessen for én utviklerrekruttering i 2025; bidro i en utviklerrekruttering i 2024.
 - Endret releasekadensen fra annenhver uke til to ganger i uka uten at app-ratingen på 4,6 falt.
 - Kjører sikkerhetsvurderinger, DPIA-er (Visma Cloud Delivery Model) og ISO 9001-revisjon for mobilproduktet.
 - Stack: React Native, TypeScript, GitHub Actions CI/CD.
+
+#### Parallelle initiativ (ved siden av teamlederrollen)
 
 **Leder, AI Champions** — jan. 2026 – d.d.
 - Koordinerer et tverrfaglig initiativ med 10 personer (utvikling, support, forretningsutvikling, salg, produkt) som ruller ut agent-baserte arbeidsflyter på tvers av Tripletex.
@@ -37,9 +39,9 @@ Tripletex er Norges ledende SaaS-løsning for regnskap og ERP. Jeg startet som f
 - Arrangerer "Claude and Coffee" sammen med en kollega — lavterskelmøter som har hjulpet kollegaer i Support, HR og Sales med å bygge egne automatiseringer, ikke bare utviklere.
 - Koordinerings- og enabler-rolle, ikke personalansvar.
 
-**Coach, internprosjektteam** — apr. 2026 – d.d.
+**Fungerende coach, internprosjektteam** — apr. 2026 – d.d.
 - Veileder et produktteam på 4 personer (3 utviklere, 1 produktspesialist) i utviklingspraksis, leveranseflyt og samarbeid på tvers av team.
-- Coaching-rolle — ingen direkte rapporterende på dette teamet.
+- Midlertidig coaching-rolle — ingen direkte rapporterende på dette teamet.
 
 **Fungerende teamleder, AI-produktteam** — apr. 2024 – feb. 2025 (delt ~50/50 med mobil)
 - Etablerte et nytt AI-produktteam ved siden av mobilansvaret mens en permanent leder ble rekruttert.
