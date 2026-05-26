@@ -64,6 +64,10 @@ Automated document generation in HP Exstream and Visual Basic.
 
 **Gjøvik University College (now NTNU Gjøvik)** — Bachelor in Game Programming, 2010–2013. Additional courses in Applied Computer Science, 2013–2014.
 
+## Certifications
+
+**Lederskolen — NITO — 2026.** Leadership program covering leadership, self-leadership, team leadership, communication, and stress management.
+
 ## Boards
 
 - Chairman of the Board, Sameiet Persilengen — 2026–Present

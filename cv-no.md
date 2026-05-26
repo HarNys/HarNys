@@ -64,6 +64,10 @@ Automatisert dokumentgenerering i HP Exstream og Visual Basic.
 
 **Høgskolen i Gjøvik (nå NTNU Gjøvik)** — Bachelor i spillprogrammering, 2010–2013. Tilleggsemner i anvendt informatikk, 2013–2014.
 
+## Sertifiseringer
+
+**Lederskolen — NITO — 2026.** Lederprogram med temaene ledelse, selvledelse, teamledelse, kommunikasjon og stressmestring.
+
 ## Verv
 
 - Styreleder, Sameiet Persilengen — 2026–d.d.
